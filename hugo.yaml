@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://alkakumari.com
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "Alka Kumari"
 
 # Use Hugo modules to add theme
 module:
@@ -23,13 +23,14 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "Alka Kumari"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+  # bn:
+  #   disabled: true
+  #   languageCode: bn
+  #   languageName: বাংলা
+  #   title: জনের ব্লগ
+  #   weight: 2
 # default language for the content
 defaultContentLanguage: en
 
@@ -58,17 +59,17 @@ enableEmoji: true
 # Site parameters
 params:
   # Background image of the landing page
-  background: /images/site/background.jpg
+  background: /images/site/zbackground.jpg
 
   # Provide logos for your site. The inverted logo will be used in the initial
   # transparent navbar and the main logo will be used in the non-transparent navbar.
   logo:
-    main: /images/site/main-logo.png
-    inverted: /images/site/inverted-logo.png
-    favicon: /images/site/favicon.png
+    main: /images/site/Tech.jpg
+    inverted: /images/site/Tech.jpg
+    favicon: /images/site/Tech.jpg
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  # gitRepo: https://github.com/alkkuma1/hugo-toha.github.io
   # Default branch of your Git repo
   gitBranch: main
 
@@ -115,7 +116,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
@@ -153,7 +154,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false #changes made by Alka
       services:
         # Google Analytics
         google:
@@ -176,7 +177,7 @@ params:
         kofi:
           user: hossainemruz
           text: Tip Me
-          textColor: '#f9fafc'
+          text: '#f9fafc'
           backgroundColor: '#248aaa'
         # buymeacoffee:
         #   user: <your buymeacoffee.com user>
