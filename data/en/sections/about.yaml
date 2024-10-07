@@ -19,7 +19,7 @@ designation: LLM Engineer|AWS Cloud Practitioner|API Architect
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I’ve built supercool projects leveraging LLMs and Retrieval-Augmented Generation (RAG) to deliver cutting-edge AI solutions. As a cloud architect, I specialize in AWS, optimizing SQL/NoSQL databases and serverless systems to drive efficiency and reduce costs. I excel in designing API architectures using AWS Lambda, API Gateway, and microservices to streamline workflows and scale seamlessly.'
+summary: 'I’ve built supercool projects leveraging LLMs and Retrieval-Augmented Generation (RAG) to deliver AI solutions. As a cloud architect, I specialize in AWS, optimizing SQL/NoSQL databases and serverless systems to drive efficiency and reduce costs. I excel in designing API architectures using AWS Lambda, API Gateway, and microservices to streamline workflows and scale seamlessly.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
