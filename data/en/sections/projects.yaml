@@ -21,23 +21,47 @@ buttons:
 
 # your projects
 projects:
-- name: Django
+- name: Weather App
   logo: /images/sections/projects/weather.jpg
-  role: Developer
+  # role: Developer
   # timeline: "March 2018 - Present"
   repo: https://github.com/alkkuma1/Django-Flask-FastAPIProjects # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Weather comparison app using Django backend, JavaScript frontend, 5-day forecast.
+  summary: A web application that compares weather data for two different locations, including a 5-day forecast. The application uses Django for the backend and JavaScript for fetching and displaying weather data on the frontend.
   tags: ["Hobby", "Django", "api"]
 
 - name: How was your day?
-  logo: /images/sections/projects/cool.png
-  role: Developer
+  logo: /images/sections/projects/cool.jpg
+  # role: Developer
   # timeline: "March 2018 - Present"
   repo: https://github.com/alkkuma1/ThoughtEmbedding_AlloyDB_VertexAI # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: A simple Streamlit application for embedding and analyzing user thoughts using PostgreSQL and Principal Component Analysis (PCA).
+  summary: A Streamlit application for embedding and analyzing user thoughts using PostgreSQL and Principal Component Analysis (PCA).
   tags: ["cloud", "ds"]
+  
+- name: Sentiment Analysis on Amazon Product Reviews
+  logo: /images/sections/projects/happy.jpg
+  # role: Developer
+  # timeline: "March 2018 - Present"
+  repo: https://github.com/alkkuma1/sentiment-analysis-amazon-product-reviews 
+  summary: Sentiment analysis on Amazon product reviews using NLP techniques. Aiming to help businesses understand customer sentiment. Code includes preprocessing, classification & evaluation in Python. Access limited to team & instructor.
+  tags: ["ds", "nlp"]
+
+- name: Sarcasm Detection on Amazon Product Reviews
+  logo: /images/sections/projects/happy.jpg
+  # role: Developer
+  # timeline: "March 2018 - Present"
+  repo: https://github.com/alkkuma1/Cust-Review-Corpus-Sarcasm-Detection 
+  summary: This repository fine-tunes models like OPT_LoRA, DistilGPT2_LoRA, BLOOM, and Cerebras for sarcasm detection in text. It includes datasets, preprocessing, training scripts, and model usage for sarcasm classification.
+  tags: ["ds", "nlp"]
+
+- name: Hate Speech Detection
+  logo: /images/sections/projects/happy.jpg
+  # role: Developer
+  # timeline: "March 2018 - Present"
+  repo: https://github.com/alkkuma1/hate_speech_detection
+  summary: This repository is part of an ongoing research for hate speech detection using RNN, LSTM and GRU based architecture moving on to transfer finetuning using RoBERTa.
+  tags: ["ds", "nlp"]
 
 # - name: Tensorflow
 #   logo: /images/sections/projects/tensorflow.png
