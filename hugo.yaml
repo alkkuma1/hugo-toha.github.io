@@ -154,7 +154,7 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: false #changes made by Alka
+      enabled: true #changes made by Alka
       services:
         # Google Analytics
         google:

@@ -6,7 +6,7 @@ menu:
   sidebar:
     name: Decoding matplotlib
     identifier: markdown
-    weight: 1
+    weight: 2
 author:
   name: Alka Kumari
   # image: /images/author/hero.jpg

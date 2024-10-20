@@ -22,21 +22,26 @@ buttons:
 # your projects
 projects:
 - name: Weather App
-  logo: /images/sections/projects/weather.jpg
+  # logo: /images/sections/projects/weather.jpg
   # role: Developer
   # timeline: "March 2018 - Present"
   repo: https://github.com/alkkuma1/Django-Flask-FastAPIProjects # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: A web application that compares weather data for two different locations, including a 5-day forecast. The application uses Django for the backend and JavaScript for fetching and displaying weather data on the frontend.
+  # summary: A web application that compares weather data for two different locations, including a 5-day forecast. The application uses Django for the backend and JavaScript for fetching and displaying weather data on the frontend.
+  summary: |
+    ![Weather Comparator Demo](/images/sections/projects/weather.jpg)
+    A web application that compares weather data for two different locations, including a 5-day forecast. The application uses **Django** for the backend and *JavaScript* for fetching and displaying weather data on the frontend.
   tags: ["Hobby", "Django", "api"]
 
 - name: How was your day?
-  logo: /images/sections/projects/cool.jpg
+  # logo: /images/sections/projects/cool.jpg
   # role: Developer
   # timeline: "March 2018 - Present"
   repo: https://github.com/alkkuma1/ThoughtEmbedding_AlloyDB_VertexAI # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: A Streamlit application for embedding and analyzing user thoughts using PostgreSQL and Principal Component Analysis (PCA).
+  summary: |
+    ![How was your day](/images/sections/projects/howwasyourday.png)
+    A Streamlit application for embedding and analyzing user thoughts using PostgreSQL and Principal Component Analysis (PCA).
   tags: ["cloud", "ds"]
   
 - name: Sentiment Analysis on Amazon Product Reviews
